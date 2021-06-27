@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("Enter a number (1,2,3,4,5): ");
+    scanf("%d", &num );
+    
+    switch(num)
+    {
+        case 1:
+            printf("Food Item - Biryani\nPrice - Rs.350");
+            break;
+        case 2:
+            printf("Food Item - Rajma Chawal\nPrice - Rs.150");
+            break;
+        case 3:
+            printf("Food Item - Pizza\nPrice - Rs.99");
+            break;
+        case 4:
+            printf("Food Item - Sarso da Saag makke di Roti\nPrice - Rs.200");
+            break;
+        case 5:
+            printf("Food Item - Burger\nPrice - Rs.75");
+            break;
+        default:
+            printf("Number entered is Invalid ! ");
+    }
+    return 0;
+}
